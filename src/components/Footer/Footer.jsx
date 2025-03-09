@@ -7,6 +7,7 @@ import {
   FaFacebook,
   FaInstagram,
   FaLinkedin,
+  FaGithub,
   FaLocationArrow,
   FaMobileAlt,
 } from "react-icons/fa";
@@ -53,8 +54,7 @@ const Footer = () => {
               ShopMe
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
+              A responsive frontend E-commerce project made by tushar 
             </p>
           </div>
 
@@ -99,24 +99,25 @@ const Footer = () => {
 
             <div>
               <div className="flex items-center gap-3 mt-6">
-                <a href="#">
-                  <FaInstagram className="text-3xl" />
+                {/* <a href="https://www.instagram.com/tushar_sharma_567/" target="blank"> */}
+                <a href="https://www.instagram.com/tushar_sharma_567/" target="_blank" rel="noopener noreferrer">
+                  <FaInstagram  className="text-3xl" />
                 </a>
-                <a href="#">
-                  <FaFacebook className="text-3xl" />
+                <a href="https://github.com/tushar6905" target="_blank" rel="noopener noreferrer">
+                  <FaGithub className="text-3xl" />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/tushar-sharma-11b51428a/" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin className="text-3xl" />
                 </a>
               </div>
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaMapLocationDot />
-                  <p>Indore, Madhya Pradesh</p>
+                  <p>Chandigarh</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <IoCall />
-                  <p>+91 123456789</p>
+                  <p>+91 62302-10112</p>
                 </div>
               </div>
             </div>

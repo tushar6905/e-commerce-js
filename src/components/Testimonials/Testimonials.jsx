@@ -2,31 +2,31 @@ import React from "react";
 import Slider from "react-slick";
 
 const TestimonialData = [
-  {
-    id: 1,
-    name: "Victor",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/101/101",
-  },
-  {
-    id: 2,
-    name: "Satya Nadella",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/102/102",
-  },
-  {
-    id: 3,
-    name: "Virat Kohli",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/104/104",
-  },
-  {
-    id: 5,
-    name: "Sachin Tendulkar",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/103/103",
-  },
-];
+    {
+      id: 1,
+      name: "Victor",
+      text: "The user interface of this e-commerce app is clean and easy to navigate. Shopping and checkout were seamless. Highly recommended!",
+      img: "https://picsum.photos/101/101",
+    },
+    {
+      id: 2,
+      name: "Satya Nadella",
+      text: "The app is well-optimized and runs smoothly. The product recommendations are on point, and the customer support is excellent!",
+      img: "https://picsum.photos/102/102",
+    },
+    {
+      id: 3,
+      name: "Virat Kohli",
+      text: "Loved the variety of products! The delivery was quick, and the quality exceeded my expectations. This app is a game-changer for online shopping.",
+      img: "https://picsum.photos/104/104",
+    },
+    {
+      id: 5,
+      name: "Sachin Tendulkar",
+      text: "A fantastic shopping experience! The app is fast, and the payment options are flexible. Would definitely shop here again!",
+      img: "https://picsum.photos/103/103",
+    },
+    ];
 
 const Testimonials = () => {
   var settings = {
@@ -79,8 +79,7 @@ const Testimonials = () => {
             Testimonials
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+           These are some of our beloves customers, lets see what they say about us
           </p>
         </div>
 

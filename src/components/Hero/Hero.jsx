@@ -4,30 +4,29 @@ import Image2 from "../../assets/hero/shopping.png";
 import Image3 from "../../assets/hero/sale.png";
 import Slider from "react-slick";
 
-const ImageList = [
+const ImageList =[
   {
     id: 1,
     img: Image1,
-    title: "Upto 50% off on all Men's Wear",
+    title: "Up to 50% Off on All Men's Wear",
     description:
-      "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Upgrade your style with premium men's fashion at unbeatable prices. Limited-time offer—shop now and save big!",
   },
   {
     id: 2,
     img: Image2,
-    title: "30% off on all Women's Wear",
+    title: "30% Off on All Women's Wear",
     description:
-      "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Refresh your wardrobe with stylish women's wear at 30% off. Don't miss out—grab your favorites today!",
   },
   {
     id: 3,
     img: Image3,
-    title: "70% off on all Products Sale",
+    title: "Mega Sale: Up to 70% Off on All Products!",
     description:
-      "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Hurry! Our biggest sale is here—get up to 70% off on top-quality products. Limited stock available, shop now!",
   },
-];
-
+]
 const Hero = ({ handleOrderPopup }) => {
   var settings = {
     dots: false,
